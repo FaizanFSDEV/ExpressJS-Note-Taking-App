@@ -1,0 +1,26 @@
+{
+  "name": "note_taking_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "\"express.js\"",
+    "'mongodb'",
+    "'passport.js'",
+    "'note-taking'"
+  ],
+  "author": "'Faizan Anwar'",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chance": "^1.1.7",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "passport": "^0.4.1",
+    "passport-http-bearer": "^1.0.1"
+  }
+}
