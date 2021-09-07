@@ -7,7 +7,7 @@ const PORT = 4000
 const noteRoutes = require('./notes/routes')
 const userRoutes = require('./users/routes')
 
-mongoose.connect('mongodb+srv://admin:123@cluster0.o6jhm.mongodb.net/notetakingapp?retryWrites=true&w=majority', { useNewUrlParser: true })
+mongoose.connect('mongodb://localhost/notetakingapp', { useNewUrlParser: true })
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
